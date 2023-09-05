@@ -1,0 +1,36 @@
+관계형 DB - RDBMS
+데이터를 나타내는 열이 존재(ex 국가코드)
+행 정보(대한민국,일본,미국 등등)
+열과 행을 테이블이라한다
+국가에는 도시가잇고 도시에는 사람이잇고(관계를 맺ㄴㄴ
+
+MySQL - 학습무료/많이사용함
+오라클에서 관리함
+
+설치
+구글 - MySQL - 다운로드 - 쭉내려서 커뮤니티다운로드 - installer for Window
+- Archives - (product version) 8.0.20 - 420.6Mb 다운
+다운받은거 더블클릭 - Developer Default 설치 (서버,클라이언트가 설치됨) - next - excute - 
+동의하고 설치 후 next - 이상한거떠도 yes - excute - 다 체크되면 next - 전부 next하고
+account and Roles에서 비밀번호를 root로 하고 next - next - excute - 넘기다가 running 뜨면
+next - installation Complete 에서 workbench만 체크 후 넘김 - 새창이뜸 - localhost(자신의컴퓨터)
+- mySQl 번호: 3306 > port라 함 - 클릭 - 비번입력 후 엔터 - 접속됨
+Options - internatinal - defaulr - time에 +9:00입력 후 apply
+
+DB = 통신을 할 수 있게 해줌 - 네트워크 통신 - 서버
+ ㄴ 클라이언트 - 서버조작을 하게해줌
+
+
+
+장점
+많은양의 데이터 관리할 때 유리(적은양은 파일로써 충분히관리 가능함)
+쉽게 찾고 쓸 수 있는 형태로 구성
+보호/여러 사용자 공유
+손실/손상 데이터 (쉽게 찾고 복구 가능
+---
+단점
+DB데이터에 결함이없도록 추가적인 정보를 공부해야한다
+ ㄴ 결함을 방지할 수 있는 논리적 개념 이해 필요
+명령어(SQL) 학습 필요
+
+RDBMS도 파일의 형태로 저장하는데 읽고쓰는 방식에따라 정보르 관리하는게 다르다?

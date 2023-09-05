@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS my_db;
+
+SHOW DATABASES;
+
+-- DROP DATABASE my_db;
+
+USE my_db;
+
+CREATE TABLE IF NOT EXISTS test (
+	num INT
+);
+
+SHOW TABLES;
+DESC test;
+
+-- DROP TABLE test;
